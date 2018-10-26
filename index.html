@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Circle Slider</title>
+</head>
+<link rel="stylesheet" href="http://delanosolutions.com/static/fonts/Raleway-Black/stylesheet.css">
+<link rel="stylesheet" href="./index.css">
+<body>
+    <div id="businessCycle">
+        <div class="grid no-padding">
+          <svg viewBox="0 0 1380 60" class="svg-piece">
+            <path id="arch" width="1380px" height="60px" fill="#f5f5f5" d="M0,0h1380c0,31.3,0,31.3,0,60C1139,24.1,914.4,0.2,690,0C464.7-0.2,239.5,23.4,0,60
+                C0,45.3,0,45.3,0,0z"></path>
+          </svg>
+          <div class="flex__container">
+            <div class="watch__block">
+              <h2 class="title_h1" style="max-width: 300px;">Business Life Cycle</h2>
+            </div>
+            <div class="slider-circle">
+
+                <div class="slide-item">
+                  <div class="icon icon-rocket"></div>
+                  <h3 class="rest__title_h4">1. Start-up</h3>
+                  <p class="description_small">Starting a new business requires extensive planning and preparation. Many
+                    new start-ups fail, simply because they don’t have the resources, infrastructure, or expertise to
+                    ensure all the pillars to success are upheld.</p><a href="/startup-consulting/" class="link">Learn More</a>
+                </div>
+    
+                <div class="slide-item">
+                  <div class="icon icon-schedule"></div>
+                  <h3 class="rest__title_h4">2. Growth</h3>
+                  <p class="description_small">Growing your business involves managing the complexity of, not only sales
+                    but, organizational structure, processes, and resources.</p><a href="/business-growth-strategies/"
+                    class="link">Learn More</a>
+                </div>
+    
+                <div class="slide-item">
+                  <div class="icon icon-growth"></div>
+                  <h3 class="rest__title_h4">3. Expansion</h3>
+                  <p class="description_small">Your organization offers a valuable product or service in the marketplace,
+                    and you have been able to reach a growth platform.</p><a href="/business-expansion/" class="link">Learn
+                    More</a>
+                </div>
+    
+                <div class="slide-item">
+                  <div class="icon icon-portfolio"></div>
+                  <h3 class="rest__title_h4">4. Maturity</h3>
+                  <p class="description_small">Your business has expanded, and you are reaching the height of your success
+                    in your market.</p><a href="/business-maturity/" class="link">Learn More</a>
+                </div>
+                
+                <div class="slide-item">
+                  <div class="icon icon-idea"></div>
+                  <h3 class="rest__title_h4">5. Transition</h3>
+                  <p class="description_small">Your business has expanded, and you are reaching the height of your success
+                    in your market.</p><a href="/business-transition/" class="link">Learn More</a>
+                </div>
+                
+                <div class="next"></div>
+
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+  <script src="./jquery.js"></script>
+  <script src="http://delanosolutions.com/static/js/jquery.touchSwipe.js"></script>
+  <script src="./index.js"></script>
+  <script>
+      $('.slider-circle').wet({speed: 500});
+  </script>
+</body>
+
+</html>
